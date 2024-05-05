@@ -7,11 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-    <title>service</title>
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+    <title>design</title>
 </head>
 <body>
+    
     <header class="header">
         <div class="burger__menu" id="burger__menu">
             <div class="container">
@@ -60,7 +61,7 @@
         </div>
         <div class="container">
             <div class="header__inner" id="header__inner">
-                <div class="burger" id="burger" onclick="toggleClass()">
+                <div class="burger" id="burger">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -72,6 +73,36 @@
                     <div></div>
                 </div>
                 <button class="header__button">Задать вопрос</button>
+            </div>
+            <div class="burger__menu" id="burger__menu">
+                <div class="burger__items">
+                    <div class="burger__item">
+                        <h1 class="burger__title burger__titleM">УСЛУГИ</h1>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА</a>
+                        <a href="#" class="burger__link">ДИЗАЙН ИНТЕРЬЕРА</a>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА КВАРТИР</a>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА КОММ. ПОМЕЩЕНИЙ</a>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА ЧАСТНЫХ ДОМОВ</a>
+                        <a href="#" class="burger__link">ПАКЕТНЫЙ РЕМОНТ КВАРТИР (ОТДЕЛКА + МАТЕРИАЛЫ)</a>
+                    </div>
+                    <div class="burger__items-cont">
+                        <div class="burger__item">
+                            <h1 class="burger__title">ПОРТФОЛИО</h1>
+                            <a href="#" class="burger__link">ПОРТФОЛИО</a>
+                        </div>
+                        <div class="burger__item">
+                            <h1 class="burger__title">МЕДИА</h1>
+                            <a href="#" class="burger__link">101GROUP</a>
+                        </div>
+                        <div class="burger__item">
+                            <h1 class="burger__title">КОМПАНИЯ</h1>
+                            <a href="#" class="burger__link">ИСТОРИЯ</a>
+                            <a href="#" class="burger__link">КОМАНДА
+                            <a href="#" class="burger__link">ОТЗЫВЫ</a>
+                            <a href="#" class="burger__link">КОНТАКТЫ</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="header__info" id="header__info">
                 <div class="header__cont">
@@ -117,145 +148,39 @@
         </div>
     </header>
     <main>
-        <div class="service">
+        <div class="complex">
             <div class="container">
-                <h1 class="service__title">Услуги по ремонту</h1>
-                <div class="service__items">
-                    <div class="service__item service__itemBG1">
-                        <div class="service__item-title">Отделка и ремонт квартир</div>
-                        <div class="service__item-text">Профессиональная отделка и ремонт квартир, превращающая ваши идеи в реальность и создающая уютное и красивое жилище.</div>
-                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                <h1 class="complex__title">Комплекс работ включает в себя</h1>
+                <div class="complex__items">
+                    <div class="complex__item">
+                        <div class="complex__img"></div>
+                        <h2 class="complex__item-title">Чертежи</h2>
+                        <p class="complex__item-text">Разрабатываем рабочую документацию, план и чертежи для строителей</p>
                     </div>
-                    <div class="service__item service__itemBG2">
-                        <div class="service__item-title">Дизайн интерьера</div>
-                        <div class="service__item-text">Создание удобных и стильных интерьеров, отражающих вашу индивидуальность и предоставляющих комфортное пространство для жизни.</div>
-                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                    <div class="complex__item">
+                        <div class="complex__img"></div>
+                        <h2 class="complex__item-title">Визауализация</h2>
+                        <p class="complex__item-text">Создаём 3D-визуализацию вашего будущего проекта</p>
                     </div>
-                    <div class="service__item service__itemBG3">
-                        <div class="service__item-title">Отделка и ремонт комм. недвижимости</div>
-                        <div class="service__item-text">Качественная отделка и ремонт комм. недвижимости для привлекательного и удобного рабочего пространство вашего бизнеса.</div>
-                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                    <div class="complex__item">
+                        <div class="complex__img"></div>
+                        <h2 class="complex__item-title">Финансы</h2>
+                        <p class="complex__item-text">Полностью расчитываем стоимость на материалы</p>
                     </div>
-                    <div class="service__item service__itemBG4">
-                        <div class="service__item-title">Отделка и ремонт частных домов</div>
-                        <div class="service__item-text">Индивидуальный ремонт частных домов для уникального и комфортного жилья, отвечающего вашим потребностям.</div>
-                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                    <div class="complex__item">
+                        <div class="complex__img"></div>
+                        <h2 class="complex__item-title">Согласование</h2>
+                        <p class="complex__item-text">Согласовываем с вами дизайн-проект</p>
                     </div>
-                </div>
-                <div class="service__item service__itemBG5">
-                    <div class="service__item-cont">
-                        <div class="service__item-title">Пакетный ремонт</div>
-                        <div class="service__item-text">Комплексный ремонт, включающий в себя закупку материалов, доставку их до объекта, отделку и ремонт помещения.</div>
+                    <div class="complex__item">
+                        <div class="complex__img"></div>
+                        <h2 class="complex__item-title">Работа</h2>
+                        <p class="complex__item-text">Выполняем все необходимые работы по воплащению идеи и чертежа</p>
                     </div>
-                    <a href="#"><button class="service__item-button">Перейти</button></a>
-                </div>
-            </div>
-        </div>
-        <div class="time">
-            <div class="container">
-                <h1 class="time__title">Как будет происходить ремонт?</h1>
-                <div class="time__items">
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg1.svg" alt="" class="time__itemImg time__itemImg1">
-                            <p>15-20 мин</p>
-                        </div>
-                        <p class="time__item-text">Консультация по телефону</p>
-                    </div>
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg2.svg" alt="" class="time__itemImg time__itemImg2">
-                            <p>30-60 мин</p>
-                        </div>
-                        <p class="time__item-text">Выезд сметчика на объект</p>
-                    </div>
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg3.svg" alt="" class="time__itemImg time__itemImg3">
-                            <p>20-40 мин</p>
-                        </div>
-                        <p class="time__item-text">Подписание договора</p>
-                    </div>
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg4.svg" alt="" class="time__itemImg time__itemImg4">
-                            <p>1 день</p>
-                        </div>
-                        <p class="time__item-text">Начало работ на объекте</p>
-                    </div>
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg5.svg" alt="" class="time__itemImg time__itemImg5">
-                            <p>2-3 дня</p>
-                        </div>
-                        <p class="time__item-text">Завоз материалов и инструментов</p>
-                    </div>
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg6.svg" alt="" class="time__itemImg time__itemImg6">
-                            <p>20-60 дней</p>
-                        </div>
-                        <p class="time__item-text">Проведение работ</p>
-                    </div>
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg7.svg" alt="" class="time__itemImg time__itemImg7">
-                            <p>1-2 часа</p>
-                        </div>
-                        <p class="time__item-text">Сдача-приёмка объекта</p>
-                    </div>
-                    <div class="time__item">
-                        <div class="time__item-circle">
-                            <img src="img/timeImg6.svg" alt="" class="time__itemImg time__itemImg6">
-                            <p>60 месяцев</p>
-                        </div>
-                        <p class="time__item-text">Гарантийное обслуживание</p>
-                    </div>
-                </div>
-                <div class="time__footer">
-                    <input type="number" placeholder="+7 _______________________________">
-                    <button>Обсудить проект</button>
-                    <p>От вас потребуется всего<span> 2-3 часа</span> вашего времени! Всё остальное мы сделаем за вас.</p>
-                </div>
-            </div>
-        </div>
-        <div class="application">
-            <div class="container">
-                <div class="application__line">
-                    <div class="application__header">
-                        <div class="application__header-block">
-                            <div class="application__alips"></div>
-                            <p>REC</p>
-                        </div>
-                        <img src="img/batery.svg" alt="">
-                    </div>
-                    <h1 class="application__titileMedia">Контроль работ через приложение 101Group</h1>
-                    <div class="application__main">
-                        <div class="applicationPhone-cont">
-                            <img src="img/applicationPhone.svg" alt="" class="applicationPhone">
-                        </div>
-                        <div class="application__main-cont">
-                            <div class="application__main-items">
-                                <h1 class="application__titile">Контроль работ через приложение 101Group</h1>
-                                <div class="application__item">
-                                    <p class="application__item-number">1.</p>
-                                    <p class="application__item-text">Прозрачная бухгалтерия внутри приложения</p>
-                                </div>
-                                <div class="application__item">
-                                    <p class="application__item-number">2.</p>
-                                    <p class="application__item-text">Общение с менеджером проекта</p>
-                                </div>
-                                <div class="application__item">
-                                    <p class="application__item-number">3.</p>
-                                    <p class="application__item-text">Видеонаблюдение на объекте</p>
-                                </div>
-                            </div>
-                            <p class="application__main-text">Всё это позволяет следить за процессом работы удалённо и в свободное время</p>
-                            <div class="application__main-block">
-                                <button class="application__main-button">Скачать</button>
-                                <a href="#" class="application__main-link">Скачайте <span>PDF-презентацию</span> с возможностями</a>
-                            </div>
-                        </div>
+                    <div class="complex__item">
+                        <div class="complex__img"></div>
+                        <h2 class="complex__item-title">Контроль</h2>
+                        <p class="complex__item-text">Следим за правильной реализацией проекта</p>
                     </div>
                 </div>
             </div>
@@ -707,8 +632,8 @@
         </div>
     </footer>
     
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
-    <script src="slick/slick.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
